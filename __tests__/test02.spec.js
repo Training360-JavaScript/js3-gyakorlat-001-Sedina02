@@ -7,7 +7,7 @@ describe( '2. feladat', () => {
     });
     
     test( 'A HU.currency metódusnak vissza kellene adnia a magyar pénznemben formázott számot.', () => {
-        const result = HU.curreny(2000);
+        const result = HU.currency(2000);
         expect(result).toEqual('2 000,00 Ft');
     });
     
